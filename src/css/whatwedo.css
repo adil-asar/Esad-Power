@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+#whatwedo{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* transition: 15s; */
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.whatwedo_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af ;
+    padding-top: 5rem ;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.whatwedo_para{
+    color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600;
+    /* padding-bottom: 1rem; */
+   text-align: justify;
+    letter-spacing: 0.1rem;
+}
+
+.img-css{
+  height: 18rem !important;
+  width: 95%;
+  margin: auto;
+}
+@media only screen and (max-width: 800px) {
+
+    .whatwedo_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      color: #2994af ;
+      padding-top: 4rem ;
+      padding-bottom: 1rem;
+
+  }
+  .whatwedo_para{
+    color: #1B2631;
+  font-size: 0.9rem;
+  font-weight: 600;
+    padding-bottom: 0.6rem;
+   text-align: justify;
+    letter-spacing: 0.1rem;
+}
+.img-css{
+  height: 13rem !important;
+  width: 95%;
+  margin: auto;
+}
+  }
+
+
+

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+
+#industries{
+    
+    /* background-color: rgb(165, 157, 42);   */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 15s; 
+   scroll-behavior: smooth;
+}
+.indus_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af ;
+    padding-top: 4rem ;
+    padding-bottom: 1rem;
+}
+.indus_para{
+  color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600;
+    /* padding-bottom: 1rem; */
+   
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+.indus_para2{
+  color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600; 
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.indushead{
+  color: #2994af;
+   font-weight: 600;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.heading3{
+  color: #2994af; font-weight: 600;
+  font-size: 1.3rem;
+  text-align: justify ;
+  text-transform: uppercase;
+}
+
+
+
+
+
+ 
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .indus_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      color: #2994af ;
+      padding-top: 4rem ;
+      padding-bottom: 1rem;
+  }
+  .indus_para{
+    color: #1B2631;
+    font-size: 0.9em;
+    font-weight: 600;
+      padding-bottom: 0.5rem;
+     
+      letter-spacing: 0.1rem;
+      text-align: justify;
+  }
+  .heading3{
+    color: #2994af; font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: justify ;
+
+  }
+  .indus_para2{
+    color: #1B2631;
+    font-size: 0.9rem;
+    font-weight: 600; 
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    padding-bottom: 1rem;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+  

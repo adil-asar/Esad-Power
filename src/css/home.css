@@ -1,0 +1,79 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+.herostyle{
+  margin-top: 4rem; 
+ background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../images/back.jpg');
+width: 100%;
+height:100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: #ffff;
+ display: flex;
+ align-items: center;
+ /* padding: 2rem; */
+ /* font-family: 'Titillium Web', sans-serif;
+  */
+  /* font-family: 'Roboto', sans-serif; */
+font-family: 'Source Sans Pro', sans-serif;
+/* font-family: 'Titillium Web', sans-serif; */
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.home_heading{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.home_paragraph{
+    font-size: 1.1rem;
+    color: #ffff;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+      margin-bottom: 1.5rem;
+}
+.home_btn1{
+    color: #ffff !important;
+    border: 1px solid #ffff !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    letter-spacing: 00.1rem;
+    margin-bottom: 1.3rem !important;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .herostyle{
+        margin-top: 5rem; 
+    
+      width: 100%;
+    height: auto;
+       color: #ffff;
+       display: block;
+       align-items: center;
+       
+      }
+      .home_heading{
+        font-size: 2.1rem;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .home_paragraph{
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+      
+          margin-bottom: 1.5rem;
+    }
+  }
+
+

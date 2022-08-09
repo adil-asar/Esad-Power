@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+
+
+
+#difference{
+  
+    font-family: 'Source Sans Pro', sans-serif;
+   min-height: 100vh;
+    scroll-behavior: smooth;
+}
+.difference_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af ;
+    padding-top: 5rem ;
+    padding-bottom: 0.5rem;
+}
+.difference_para{
+    color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600;
+    /* padding-bottom: 0rem; */
+  
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+
+
+@media only screen and (max-width: 800px) {
+
+    .difference_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      color: #2994af ;
+      padding-top: 5rem ;
+      padding-bottom: 1rem;
+  }
+  .difference_para{
+    color: #1B2631;
+  font-size: 0.9rem;
+  font-weight: 600;
+    padding-bottom: 0.5rem;
+  
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+  }

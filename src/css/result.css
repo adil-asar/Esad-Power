@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+
+
+#resultpage{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 15s; 
+   scroll-behavior: smooth;
+}
+
+
+
+.result_heading{
+    font-size: 3rem;
+  
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af ;
+    padding-top: 4rem ;
+    padding-bottom: 0.5rem;
+}
+
+.result_head{
+    font-size: 3rem; font-weight: 900;letter-spacing: 0.1rem;
+    color: #2994af ;padding-bottom: 0.5rem;
+}
+.description{
+    color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.res_head{
+    color: #2994af; font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .res_head2{
+    color: #2994af; font-weight: 600;
+    font-size: 1.5rem;
+    ;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+  .paragraph3{
+   
+    color: #1B2631;
+  font-size: 1.1rem;
+  font-weight: 600;
+    text-align:center;
+    
+}
+
+.block_css{
+  box-shadow: 10px 10px 5px lightgray;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .result_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      color: #2994af ;
+      padding-top: 4rem ;
+      padding-bottom: 1rem;
+  }
+
+  .description{
+    color: #1B2631;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.paragraph3{
+   
+  color: #1B2631;
+font-size: 0.9rem;
+font-weight: 600;
+  text-align:center;
+  letter-spacing: 0.1rem;
+  
+}
+.result_head{
+  font-size: 2.3rem; font-weight: 900;letter-spacing: 0.1rem;
+  color: #2994af ;padding-bottom: 0.5rem;
+}
+  }

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+
+
+#value{
+    font-family: 'Source Sans Pro', sans-serif;
+     transition: 15s; 
+    scroll-behavior: smooth;
+    
+    /* background-color: brown; */
+}
+.value_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af ;
+    padding-top: 4rem ;
+    padding-bottom: 0.5rem;
+}
+.value_para{
+    color: #1B2631;
+    font-size: 1.1rem;
+    font-weight: 600;
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+.heading2{
+    color: #2994af; font-weight: 600;
+    font-size: 1.3rem;
+    text-transform:uppercase;
+}
+.paragraph2{
+    color: #1B2631;
+  font-size: 1.1rem !important;
+  font-weight: 600;
+    transition: all .4s ease;
+    text-align:justify;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .value_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      color: #2994af ;
+      padding-top: 4rem ;
+      padding-bottom: 1rem;
+  }
+  .value_para{
+    color: #1B2631;
+    font-size: 0.9rem;
+    font-weight: 600;
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+.heading2{
+    color: #2994af; font-weight: 600;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+}
+.paragraph2{
+    color: #1B2631;
+  font-size: 0.9rem !important;
+  font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-align:justify;
+    font-size: 1.2rem;
+}
+  }

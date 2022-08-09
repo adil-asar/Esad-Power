@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+#contact{
+    font-family: 'Source Sans Pro', sans-serif;
+     transition: 15s; 
+    scroll-behavior: smooth;
+    
+    /* background-color: brown; */
+}
+
+
+.contact_style{
+    margin-top: 3rem; 
+ background:  url('../images/light.jpg');
+width: 100%;
+min-height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: #ffff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.contact_heading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: #2994af;
+    padding-bottom: 1.5rem;
+}
+.con_para{
+    color: #515A5A;
+    font-size: 1.1rem;
+    /* padding-bottom: 1rem; */
+   font-weight: 600;
+   color: #1B2631;
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+.contact_style{
+    
+ 
+width: 100%;
+height: auto;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: #ffff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10rem 1rem;
+
+}
+    .contact_heading{
+      font-size: 2.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+    
+      /* padding-top:6rem ; */
+      padding-bottom: 1rem;
+  }
+
+  .con_para{
+    color: #515A5A;
+    font-size: 0.9rem;
+    /* padding-bottom: 1rem; */
+   font-weight: 600;
+   color: #1B2631;
+   text-align: justify;
+    letter-spacing: 0.1rem;
+} 
+  }

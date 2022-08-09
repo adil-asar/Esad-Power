@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+
+
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* background: #2994af; */
+    /* color: #ffffff; */
+
+    .navbar_style{
+
+        /* font-family: 'Titillium Web', sans-serif;
+         */
+         
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.8rem;
+      background-color: #fff;
+        font-weight: 900;
+        letter-spacing: 2px;
+        
+
+        
+    }
+    .navbar-brand{
+        letter-spacing: 1px;
+        color:black;
+        font-size: 0.9rem !important;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .navbar-brand .brand_text{
+        font-weight: 900; 
+        /* margin: 0.5rem 0 !important; */
+        text-align: center;
+
+    }
+    .navbar-brand:hover{
+        color: black;
+    }
+    /* .nav-item{
+      
+    }
+    .nav-item:hover{
+        background-color:#2994af ;
+        
+    } */
+    .nav-item > a{
+        color: #515A5A;
+        padding: 1rem 0.7rem;
+        font-weight: 900 !important;
+    }
+    .nav-item > a:hover{
+        color: #ffffff !important;
+        background-color:#2994af ;
+    }
+.dropdown-item{
+    
+    padding: 0.5rem !important;
+   font-size: 0.7rem;
+   font-weight: 700 !important;
+   text-align: center !important;
+}
+.dropdown-item:hover{
+background-color: #ffffff !important;
+color: #2994af !important;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .navbar-brand{
+        letter-spacing: 2px;
+        color: black;
+        font-size: 0.8rem !important;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+}
